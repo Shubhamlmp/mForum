@@ -1,0 +1,55 @@
+body {
+    background-color: #eeeeee;
+}
+
+.h7 {
+    font-size: 0.8rem;
+}
+
+.gedf-wrapper {
+    margin-top: 0.97rem;
+}
+
+@media (min-width: 992px) {
+    .gedf-main {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .gedf-card {
+        margin-bottom: 2.77rem;
+    }
+}
+
+/**Reset Bootstrap*/
+.dropdown-toggle::after {
+    content: none;
+    display: none;
+}
+/*-----------------navbar css-------------- */
+
+.navbar{
+  
+background: white;
+display: flex;
+justify-content: center;
+
+}
+.navbar a {
+padding: 0.4rem;
+font:bold;
+
+/* font-family: Georgia, 'Times New Roman', Times, serif; */
+display: flexbox;
+font-size: 1rem;
+color: black;
+}
+.navbar button{
+  
+    position: relative;
+    padding: 0px 10px;
+border-radius: 10px;
+background: rgb(168, 39, 35);
+color: white;
+box-sizing: border-box;
+border: none;
+}
